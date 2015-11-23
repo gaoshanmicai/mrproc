@@ -1,0 +1,15 @@
+.\output\event.o: User\event.c
+.\output\event.o: User\main.h
+.\output\event.o: .\LPC11XX\lpc11xx.h
+.\output\event.o: .\LPC11XX\core_cm0.h
+.\output\event.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\output\event.o: .\LPC11XX\core_cmInstr.h
+.\output\event.o: .\LPC11XX\core_cmFunc.h
+.\output\event.o: .\LPC11XX\system_LPC11xx.h
+.\output\event.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\string.h
+.\output\event.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdio.h
+.\output\event.o: User\queue.h
+.\output\event.o: User\event.h
+.\output\event.o: .\CFG\uart.h
+.\output\event.o: User\ctrl.h
+.\output\event.o: User\led.h

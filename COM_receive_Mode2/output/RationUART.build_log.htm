@@ -1,0 +1,52 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+F:\M0_TEST\COM_receive_Mode2\RationUART.uvproj
+Project File Date:  11/16/2015
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+compiling led.c...
+compiling uart.c...
+CFG\uart.c(70): warning:  #550-D: variable "rec_buf" was set but never used
+        uint8_t rec_buf;    // 定义接收数据变量数组
+CFG\uart.c: 1 warning, 0 errors
+linking...
+Program Size: Code=2636 RO-data=224 RW-data=32 ZI-data=960  
+FromELF: creating hex file...
+".\output\RationUART.axf" - 0 Error(s), 1 Warning(s).
+</pre>
+</body>
+</html>
+value of type "void *" cannot be assigned to an entity of type "EVENT_PARAM"
+                        pnode->e.param = NULL;
+User\event.c: 0 warnings, 3 errors
+".\output\RationUART.axf" - 3 Error(s), 0 Warning(s).
+Target not created
+.c(549): error:  #513: a value of type "void *" cannot be assigned to an entity of type "EVENT_PARAM"
+                        pnode->e.param = NULL;
+User\event.c: 0 warnings, 5 errors
+".\output\RationUART.axf" - 5 Error(s), 0 Warning(s).
+Target not created
+:  #20: identifier "FALSE" is undefined
+  BOOL event_idle_sleep_enable = FALSE;
+User\event.c(38): error:  #20: identifier "NULL" is undefined
+  event_timer_list_item_type*   event_timer_list_head = NULL;
+User\event.c(254): error:  #20: identifier "uint32" is undefined
+        (EVENT e, uint32 ms)
+User\event.c(256): error:  #20: identifier "uint8" is undefined
+        uint8   i;
+User\event.c(288): error:  #20: identifier "uint32" is undefined
+  void event_post_delayed(EVENT e, uint32 ms)
+User\event.c(313): error:  #20: identifier "uint8" is undefined
+        uint8 i;
+User\event.c(518): error:  #20: identifier "hal_pwrmgmt" is undefined
+                && hal_pwrmgmt.pwr_mode <= PMODE_S2_IDLE)
+User\event.c(518): error:  #20: identifier "PMODE_S2_IDLE" is undefined
+                && hal_pwrmgmt.pwr_mode <= PMODE_S2_IDLE)
+User\event.c: 0 warnings, 16 errors
+".\output\RationUART.axf" - 16 Error(s), 0 Warning(s).
+Target not created

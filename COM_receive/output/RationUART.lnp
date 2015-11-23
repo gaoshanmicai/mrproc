@@ -1,0 +1,13 @@
+--cpu Cortex-M0
+".\output\startup_lpc11xx.o"
+".\output\system_lpc11xx.o"
+".\output\main.o"
+".\output\event.o"
+".\output\queue.o"
+".\output\ctrl.o"
+".\output\led.o"
+".\output\uart.o"
+--strict --scatter ".\output\RationUART.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\output\RationUART.map" -o .\output\RationUART.axf

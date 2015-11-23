@@ -1,0 +1,10 @@
+.\output\main.o: User\main.c
+.\output\main.o: User\main.h
+.\output\main.o: .\LPC11XX\lpc11xx.h
+.\output\main.o: .\LPC11XX\core_cm0.h
+.\output\main.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\output\main.o: .\LPC11XX\core_cmInstr.h
+.\output\main.o: .\LPC11XX\core_cmFunc.h
+.\output\main.o: .\LPC11XX\system_LPC11xx.h
+.\output\main.o: User\event.h
+.\output\main.o: User\commontypes.h
