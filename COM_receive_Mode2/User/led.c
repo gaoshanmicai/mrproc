@@ -30,9 +30,9 @@ void led_init()
 
 void LED_ON(uint8_t val)
 {
-//  uint8_t value;
-//  if(value/1 !=0)
-//   LPC_GPIO1->DATA &= ~(1<<1);
+ uint8_t value;
+  if(value/1 !=0)
+  LPC_GPIO1->DATA &= ~(1<<1);
 //  else
 //    LPC_GPIO1->DATA |= (1<<1);
 //   value>>1;
