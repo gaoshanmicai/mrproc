@@ -36,7 +36,7 @@ int main()
 	Timer0_Intr_Config();
 	
 
-	SCB->SCR = SCB->SCR |0x2;
+	SCB->SCR = SCB->SCR |0x2;    //½øÈëË¯Ãß×´Ì¬
 
 	
 	while(1)
