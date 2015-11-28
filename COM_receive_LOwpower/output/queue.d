@@ -13,3 +13,4 @@
 .\output\queue.o: .\CFG\uart.h
 .\output\queue.o: User\ctrl.h
 .\output\queue.o: User\led.h
+.\output\queue.o: .\CFG\adc.h

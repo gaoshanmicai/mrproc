@@ -19,8 +19,9 @@ rf_data_str IP_DATA;
 uint8_t buffer[30];
 uint8_t len;
 void Timer0_Intr_Config(void);//Set I/O pin connected to LED as output
+uint32_t value;
 
-
+uint8_t commd[8]={0xbb,0x0,0x05,0x00,0x00,0x00,0x00,0x7e};
 
 
 
@@ -34,6 +35,7 @@ int main()
 	NVIC_EnableIRQ(UART_IRQn); // 开串口中断
 	led_init();
 	Timer0_Intr_Config();
+	ADC_Init();
 	
 
 	SCB->SCR = SCB->SCR |0x2;    //进入睡眠状态
@@ -53,7 +55,7 @@ void Timer0_Intr_Config(void)
 	LPC_TMR32B0->PR = 0;
 	LPC_TMR32B0->PC = 0;
 	LPC_TMR32B0->TC = 0;
-	LPC_TMR32B0->MR0 = 5999999;
+	LPC_TMR32B0->MR0 = 19999999;
 	LPC_TMR32B0->MCR = 3;
 	LPC_TMR32B0->TCR = 1;
 	NVIC_EnableIRQ(TIMER_32_0_IRQn);
@@ -65,6 +67,14 @@ void TIMER32_0_IRQHandler(void)
 	
 	LPC_TMR32B0->IR   = LPC_TMR32B0->IR;
 	LPC_GPIO1->MASKED_ACCESS[1<<1]=~LPC_GPIO1->MASKED_ACCESS[1<<1];
+	
+  value=ADC_Read();
+	commd[4]=(value>>8)&0x3;
+	commd[5]=(value)&0xff;
+	
+	UART_send(commd,(sizeof(commd)/sizeof(commd[0])));
+	
+	
 	
 	return;
 	

@@ -7,8 +7,8 @@ I (LPC11XX\core_cm0.h)(0x5205B0D8)
 I (.\LPC11XX\core_cmInstr.h)(0x5205B0D8)
 I (.\LPC11XX\core_cmFunc.h)(0x5205B0D8)
 I (LPC11XX\system_LPC11xx.h)(0x5205B0D8)
-F (.\User\main.c)(0x56548058)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\CFG -I.\LPC11XX -I.\User-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I D:\Keil_v5\ARM\Inc\NXP\LPC11xx-o .\output\main.o --omf_browse .\output\main.crf --depend .\output\main.d)
-I (User\main.h)(0x5648A48A)
+F (.\User\main.c)(0x56587214)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\CFG -I.\LPC11XX -I.\User-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I D:\Keil_v5\ARM\Inc\NXP\LPC11xx-o .\output\main.o --omf_browse .\output\main.crf --depend .\output\main.d)
+I (User\main.h)(0x56586C30)
 I (.\LPC11XX\lpc11xx.h)(0x5205B0D8)
 I (.\LPC11XX\core_cm0.h)(0x5205B0D8)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
@@ -22,8 +22,9 @@ I (User\event.h)(0x56489B9F)
 I (.\CFG\uart.h)(0x5648A441)
 I (User\ctrl.h)(0x564899B6)
 I (User\led.h)(0x5648A6AC)
+I (.\CFG\adc.h)(0x56586E6F)
 F (.\User\event.c)(0x5648A6DB)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\CFG -I.\LPC11XX -I.\User-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I D:\Keil_v5\ARM\Inc\NXP\LPC11xx-o .\output\event.o --omf_browse .\output\event.crf --depend .\output\event.d)
-I (User\main.h)(0x5648A48A)
+I (User\main.h)(0x56586C30)
 I (.\LPC11XX\lpc11xx.h)(0x5205B0D8)
 I (.\LPC11XX\core_cm0.h)(0x5205B0D8)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
@@ -37,8 +38,9 @@ I (User\event.h)(0x56489B9F)
 I (.\CFG\uart.h)(0x5648A441)
 I (User\ctrl.h)(0x564899B6)
 I (User\led.h)(0x5648A6AC)
+I (.\CFG\adc.h)(0x56586E6F)
 F (.\User\queue.c)(0x564874EB)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\CFG -I.\LPC11XX -I.\User-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I D:\Keil_v5\ARM\Inc\NXP\LPC11xx-o .\output\queue.o --omf_browse .\output\queue.crf --depend .\output\queue.d)
-I (User\main.h)(0x5648A48A)
+I (User\main.h)(0x56586C30)
 I (.\LPC11XX\lpc11xx.h)(0x5205B0D8)
 I (.\LPC11XX\core_cm0.h)(0x5205B0D8)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
@@ -52,8 +54,9 @@ I (User\event.h)(0x56489B9F)
 I (.\CFG\uart.h)(0x5648A441)
 I (User\ctrl.h)(0x564899B6)
 I (User\led.h)(0x5648A6AC)
+I (.\CFG\adc.h)(0x56586E6F)
 F (.\User\ctrl.c)(0x5648AEEA)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\CFG -I.\LPC11XX -I.\User-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I D:\Keil_v5\ARM\Inc\NXP\LPC11xx-o .\output\ctrl.o --omf_browse .\output\ctrl.crf --depend .\output\ctrl.d)
-I (User\main.h)(0x5648A48A)
+I (User\main.h)(0x56586C30)
 I (.\LPC11XX\lpc11xx.h)(0x5205B0D8)
 I (.\LPC11XX\core_cm0.h)(0x5205B0D8)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
@@ -67,8 +70,9 @@ I (User\event.h)(0x56489B9F)
 I (.\CFG\uart.h)(0x5648A441)
 I (User\ctrl.h)(0x564899B6)
 I (User\led.h)(0x5648A6AC)
+I (.\CFG\adc.h)(0x56586E6F)
 F (.\User\led.c)(0x5648A696)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\CFG -I.\LPC11XX -I.\User-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I D:\Keil_v5\ARM\Inc\NXP\LPC11xx-o .\output\led.o --omf_browse .\output\led.crf --depend .\output\led.d)
-I (User\main.h)(0x5648A48A)
+I (User\main.h)(0x56586C30)
 I (.\LPC11XX\lpc11xx.h)(0x5205B0D8)
 I (.\LPC11XX\core_cm0.h)(0x5205B0D8)
 I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
@@ -82,6 +86,7 @@ I (User\event.h)(0x56489B9F)
 I (.\CFG\uart.h)(0x5648A441)
 I (User\ctrl.h)(0x564899B6)
 I (User\led.h)(0x5648A6AC)
+I (.\CFG\adc.h)(0x56586E6F)
 F (.\CFG\uart.c)(0x5648AB26)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\CFG -I.\LPC11XX -I.\User-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I D:\Keil_v5\ARM\Inc\NXP\LPC11xx-o .\output\uart.o --omf_browse .\output\uart.crf --depend .\output\uart.d)
 I (.\LPC11XX\lpc11xx.h)(0x5205B0D8)
 I (.\LPC11XX\core_cm0.h)(0x5205B0D8)
@@ -89,7 +94,7 @@ I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
 I (.\LPC11XX\core_cmInstr.h)(0x5205B0D8)
 I (.\LPC11XX\core_cmFunc.h)(0x5205B0D8)
 I (.\LPC11XX\system_LPC11xx.h)(0x5205B0D8)
-I (.\User\main.h)(0x5648A48A)
+I (.\User\main.h)(0x56586C30)
 I (D:\Keil_v5\ARM\ARMCC\include\string.h)(0x53463A44)
 I (D:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x53463A44)
 I (.\User\queue.h)(0x56487544)
@@ -97,3 +102,12 @@ I (.\User\event.h)(0x56489B9F)
 I (.\CFG\uart.h)(0x5648A441)
 I (.\User\ctrl.h)(0x564899B6)
 I (.\User\led.h)(0x5648A6AC)
+I (.\CFG\adc.h)(0x56586E6F)
+F (.\CFG\adc.c)(0x56586E6F)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\CFG -I.\LPC11XX -I.\User-I D:\Keil_v5\ARM\RV31\INC-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.1.0\CMSIS\Include-I D:\Keil_v5\ARM\Inc\NXP\LPC11xx-o .\output\adc.o --omf_browse .\output\adc.crf --depend .\output\adc.d)
+I (CFG\adc.h)(0x56586E6F)
+I (.\LPC11XX\lpc11xx.h)(0x5205B0D8)
+I (.\LPC11XX\core_cm0.h)(0x5205B0D8)
+I (D:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x53463A44)
+I (.\LPC11XX\core_cmInstr.h)(0x5205B0D8)
+I (.\LPC11XX\core_cmFunc.h)(0x5205B0D8)
+I (.\LPC11XX\system_LPC11xx.h)(0x5205B0D8)

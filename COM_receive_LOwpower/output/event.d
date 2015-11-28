@@ -13,3 +13,4 @@
 .\output\event.o: .\CFG\uart.h
 .\output\event.o: User\ctrl.h
 .\output\event.o: User\led.h
+.\output\event.o: .\CFG\adc.h

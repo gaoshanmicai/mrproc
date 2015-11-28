@@ -8,6 +8,7 @@
 #include "uart.h"
 #include "ctrl.h"
 #include "led.h"
+#include "adc.h"
 
 typedef unsigned char uint8_t;
 typedef unsigned int  uint32_t;
