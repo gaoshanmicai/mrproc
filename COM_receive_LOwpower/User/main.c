@@ -14,6 +14,7 @@
 uint8_t rec_buf;
 rf_data_str BC_DATA;
 rf_data_str IP_DATA;
+iap2pack sendpack,recvpack;
 
 
 uint8_t buffer[30];
@@ -37,8 +38,9 @@ int main()
 	Timer0_Intr_Config();
 	ADC_Init();
 	
+	memset((uint8_t *)&sendpack,0,sizeof(sendpack));
 
-	SCB->SCR = SCB->SCR |0x2;    //进入睡眠状态
+//	SCB->SCR = SCB->SCR |0x2;    //进入睡眠状态
 
 	
 	while(1)
