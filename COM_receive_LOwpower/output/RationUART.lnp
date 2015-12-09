@@ -8,6 +8,7 @@
 ".\output\led.o"
 ".\output\uart.o"
 ".\output\time.o"
+".\output\i2c.o"
 --strict --scatter ".\output\RationUART.sct"
 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
