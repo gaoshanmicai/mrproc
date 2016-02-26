@@ -1,0 +1,10 @@
+.\output\delay.o: User\delay.c
+.\output\delay.o: User\delay.h
+.\output\delay.o: .\LPC11XX\LPC11xx.h
+.\output\delay.o: .\LPC11XX\core_cm0.h
+.\output\delay.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
+.\output\delay.o: .\LPC11XX\core_cmInstr.h
+.\output\delay.o: .\LPC11XX\core_cmFunc.h
+.\output\delay.o: .\LPC11XX\system_LPC11xx.h
+.\output\delay.o: User\rcp_event.h
+.\output\delay.o: D:\Keil_v5\ARM\ARMCC\bin\..\include\stdbool.h
